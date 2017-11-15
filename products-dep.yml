@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: products
-        image: otomato/oto-products:BUILD_NUMBER
+        image: rusnw/oto-products:BUILD_NUMBER
         ports:
         - containerPort: 5000
   strategy:
